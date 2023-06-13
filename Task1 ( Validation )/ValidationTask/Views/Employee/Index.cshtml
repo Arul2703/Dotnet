@@ -1,0 +1,32 @@
+@model ValidationTask.Models.Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create Employee</h1>
+
+<form asp-action="Index" asp-controller="Employee">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DateOfBirth" class="control-label"></label>
+        <input asp-for="DateOfBirth" class="form-control" type="date" />
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DateOfJoining" class="control-label"></label>
+        <input asp-for="DateOfJoining" class="form-control" type="date" />
+        <span asp-validation-for="DateOfJoining" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+

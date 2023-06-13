@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zt+HZMcwy6RGCKDTmcKt4F0P/YmruS6775KpEDvtKX7kt0U+cUhEacTCDib6U85u/kQNE6Wsj2ASB6UMM7SPng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arularasi\\Google Drive\\MY FILES\\Aspire Systems\\DotNet\\Tasks\\Task1(Validation-DateTime)\\ValidationTask\\ValidationTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arularasi\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\Arularasi\\.nuget\\packages\\jquery.validation\\1.8.0.1\\jquery.validation.1.8.0.1.nupkg.sha512",
+    "C:\\Users\\Arularasi\\.nuget\\packages\\microsoft.jquery.unobtrusive.validation\\4.0.0\\microsoft.jquery.unobtrusive.validation.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

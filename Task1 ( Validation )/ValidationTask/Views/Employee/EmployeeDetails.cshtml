@@ -1,0 +1,28 @@
+@model ValidationTask.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<h1>Employee Details</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Full Name</h4>
+        <p class="card-text">@Model.Name</p>
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <h4 class="card-title">Date of Birth</h4>
+        <p class="card-text">@Model.DateOfBirth.ToString("dd-MM-yyyy")</p>
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <h4 class="card-title">Date of Joining</h4>
+        <p class="card-text">@Model.DateOfJoining.ToString("dd-MM-yyyy")</p>
+    </div>
+</div>
