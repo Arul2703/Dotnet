@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Welcome to the Home Page</h1>
+
+@* Displaying the session variable value if it exists *@
+@if (ViewBag.SessionValue != null)
+{
+    <p>Session Value: @ViewBag.SessionValue</p>
+}
+
+@* Displaying an error message if the session variable doesn't exist *@
+@if (ViewBag.ErrorMessage != null)
+{
+    <p>Error: @ViewBag.ErrorMessage</p>
+}
+
+<p>Other content of the Home page...</p>

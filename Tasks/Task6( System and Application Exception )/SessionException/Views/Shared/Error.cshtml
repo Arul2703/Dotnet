@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Session Error";
+}
+
+<h1>Session Error</h1>
+
+<p>An error occurred while accessing the session.</p>
+<p>Please try again later or contact the administrator for assistance.</p>
+
+@if (!string.IsNullOrEmpty(ViewData["ErrorMessage"] as string))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewData["ErrorMessage"]
+    </div>
+}
